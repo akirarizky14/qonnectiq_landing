@@ -1,0 +1,55 @@
+.container-navbar{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-navbar{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+}
+.left-navbar{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.right-navbar{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.left-right-navbar{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.left-right-navbar .Link{
+    font-size: 16px;
+    font-weight:900;
+    text-decoration: none;
+}
+.right-right-navbar{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.right-right-navbar Button {
+    background-color: #004A73;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 20px;
+}

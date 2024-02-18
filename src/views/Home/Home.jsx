@@ -1,6 +1,10 @@
+import Navbar from "../../components/Global/Navbar/Navbar"
+
 function Home(){
     return(
-        <h1>Home</h1>
+        <>
+            <Navbar/>
+        </>
     )
 }
 
