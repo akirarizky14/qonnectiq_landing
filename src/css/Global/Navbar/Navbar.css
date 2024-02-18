@@ -23,7 +23,7 @@
     display: none;
 }
 .right-navbar{
-    width: 80%;
+    width: 85%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -133,6 +133,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        padding-right: 20px;
     }
     .right-right-navbar Button {
         background-color: #004A73;
@@ -141,7 +142,7 @@
         font-weight: bold;
         font-size: 16px;
     }
-    .menu-mobile-dropdown .Link h3{
+    .menu-mobile-dropdown .Link{
         text-decoration: none;
         font-size: 14px;
         color: black;
@@ -202,7 +203,7 @@
         display: none;
         align-items: center;
         justify-content: flex-end;
-        gap: 20px;
+        gap: 0px;
     }
     .left-right-navbar .Link{
         font-size: 10px;
@@ -215,6 +216,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        padding-right: 20px;
     }
     .right-right-navbar Button {
         background-color: #004A73;

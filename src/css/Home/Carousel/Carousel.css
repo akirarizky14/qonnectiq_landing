@@ -1,32 +1,34 @@
-.container-carousel{
+.container-carousel-home{
     width: 100%;
     height: 600px;
     background-color: #004A73;
+    min-width: 400px;
 }
 .wrapper-carousel-home{
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: aqua;
+    position: relative;
+    justify-content: center;
 }
 .left-carousel-home{
-    width: 55%;
+    width: 90%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color: aliceblue;
 }
 .wrapper-left-carousel-home{
-    width: 80%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: rgb(184, 184, 184);
 }
 .wrapper-left-carousel-home h1{
-    font-size: 56px;
-    font-weight: 900;
+    font-size: 48px;
+    font-weight: 700;
     line-height: 1.25;
+    color: white;
 }
 .wrapper-left-carousel-home .button-carousel-left-home Button{
     width: 164px;
@@ -36,11 +38,137 @@
     font-weight: bold;
     font-size: 20px;
 }
-.right-carousel-home{
+.right-carousel-home {
+    right: 0;
+    bottom: 0;
+    position: absolute;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 45%;
     height: 100%;
-    background-color: antiquewhite;
+    background-color: rgba(255, 255, 255, 0); /* Transparan dengan opacity 0.5 */
+    z-index: inherit;
+}
+
+.right-carousel-home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:1080px){
+    .container-carousel-home{
+        width: 100%;
+        height: 400px;
+        min-width: 400px;
+    }
+    .wrapper-carousel-home{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    .left-carousel-home{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .wrapper-left-carousel-home{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .wrapper-left-carousel-home h1{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.25;
+    }
+    .wrapper-left-carousel-home .button-carousel-left-home Button{
+        width: 103px;
+        height: 33px;
+        background-color: #F7941D;
+        text-transform: none;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .right-carousel-home {
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0); /* Transparan dengan opacity 0.5 */
+        z-index: inherit;
+    }
+    
+    .right-carousel-home img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+@media screen and (max-width:600px){
+    .container-carousel-home{
+        width: 100%;
+        height: 200px;
+        background-color: #004A73;
+        min-width: 400px;
+    }
+    .wrapper-carousel-home{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    .left-carousel-home{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .wrapper-left-carousel-home{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .wrapper-left-carousel-home h1{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.25;
+    }
+    .wrapper-left-carousel-home .button-carousel-left-home Button{
+        width: 90px;
+        height: 30px;
+        background-color: #F7941D;
+        text-transform: none;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .right-carousel-home {
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0); /* Transparan dengan opacity 0.5 */
+        z-index: inherit;
+    }
+    
+    .right-carousel-home img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
 }
