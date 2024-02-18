@@ -4,7 +4,7 @@ import Button from '@mui/material/Button'
 import logo from '../../../assets/Global/Navbar/Logo_Qonnectiq_Desktop.png'
 import logoMobile from '../../../assets/Global/Navbar/Logo_Qonnectiq_Mobile.png'
 import MenuIcon from '@mui/icons-material/Menu';
-import { useEffect, useState ,useRef  } from 'react'
+import { useEffect, useState  } from 'react'
 function Navbar(){
     const [Medium,setisMedium] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
