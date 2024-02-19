@@ -33,7 +33,7 @@ function Navbar(){
                         <MenuIcon className='hamburger-menu' />
                     </div>
                     <figure>
-                        <Link to="/"><img src={Medium ? logoMobile : logo} alt="Logo Qonnectiq" href="/" /></Link>
+                        <Link className='logo-navbar' to="/"><img src={Medium ? logoMobile : logo} alt="Logo Qonnectiq" href="/" /></Link>
                     </figure>
                 </section>
                 <section className="right-navbar">

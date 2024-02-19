@@ -82,8 +82,8 @@
     justify-content: center;
     gap: 5%;
     background-color: #ffffff;
+    z-index: 99;
 }
-
 @media screen and (max-width:1080px){
     .container-navbar{
         width: 100%;
