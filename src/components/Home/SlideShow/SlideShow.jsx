@@ -41,7 +41,7 @@ function SlideShow(){
                                             <h1>Gratis</h1>
                                         </div>
                                         <div className="date-right-right-wrapper-card-slideshow">
-                                            <DateRangeIcon className="date-icon"/>
+                                            <DateRangeIcon  className="date-icon"/>
                                             <h3>11 Desember 2023</h3>
                                         </div>
                                         <div className="button-right-right-wrapper-card-slideshow">
