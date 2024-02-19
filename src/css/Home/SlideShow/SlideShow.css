@@ -1,0 +1,199 @@
+.container-slideshow{
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-slideshow{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    background-color: white;
+    position: relative;
+}
+.left-button-slideshow{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    left: 3%;
+    top: 40%;
+}
+.middle-card-slideshow{
+    width: 90%;
+    height: 100%;
+    background-color: #F7941D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper-card-slideshow{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    background-color: aliceblue;
+}
+.left-wrapper-card-slideshow{
+    width: 20%;
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-left-wrapper-card-slideshow{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: black;
+}
+.image-left-wrapper-card-slideshow img{
+    border-radius: 100px;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.middle-wrapper-card-slideshow{
+    width: 55%;
+    height: 100%;
+    background-color: rgb(124, 100, 100);
+    display: flex;
+    align-items: center;
+}
+.wrapper-middle-wrapper-card-slideshow{
+    width: 100%;
+    height: 80%;
+    background-color: #000000;
+    display: block;
+}
+.top-middle-wrapper-card-slideshow{
+    width: 68px;
+    height: 28px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.top-middle-wrapper-card-slideshow h3{
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.middle-middle-wrapper-card-slideshow{
+    background-color: #004A73;
+    width: 571px;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.middle-middle-wrapper-card-slideshow h1{
+    width: 96%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: white;
+}
+.bottom-middle-wrapper-card-slideshow{
+    width: 100%;
+    height: 100%;
+}
+.bottom-middle-wrapper-card-slideshow h4{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+.right-wrapper-card-slideshow{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-right-wrapper-card-slideshow{
+    width: 100%;
+    height: 90%;
+    background-color: #c92727;
+    display: flex;
+}
+.left-right-wrapper-card-slideshow{
+    width: 10%;
+    height: 100%;
+    background-color: #000000;
+}
+.left-right-wrapper-card-slideshow hr{
+    width: 2px;
+    height: 100%;
+    background-color: white;
+}
+.right-right-wrapper-card-slideshow{
+    width: 90%;
+    height: 95%;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+}
+.price-right-right-wrapper-card-slideshow{
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+    background-color: rgb(0, 16, 30);
+}
+.price-right-right-wrapper-card-slideshow h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+.date-right-right-wrapper-card-slideshow{
+    width: 100%;
+    height: 70%;
+    padding-top: 0%;
+}
+.date-right-right-wrapper-card-slideshow h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+}
+.button-right-right-wrapper-card-slideshow{
+    width: 60%;
+    height: 60%;
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.button-right-right-wrapper-card-slideshow h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+.right-button-slideshow{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #F5F5F5;
+}
