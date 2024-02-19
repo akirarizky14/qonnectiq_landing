@@ -1,5 +1,6 @@
-import '../../../css/Home/SlideShow/SlideShow.css'
+import "../../../css/Home/Slideshow/SlideShow.css"
 import photo from '../../../assets/Home/SlideShow/photo-dump.png'
+import DateRangeIcon from '@mui/icons-material/DateRange';
 function SlideShow(){
     return(
         <div className="container-slideshow">
@@ -35,15 +36,19 @@ function SlideShow(){
                                     <hr />
                                 </div>
                                 <div className="right-right-wrapper-card-slideshow">
-                                    <div className="price-right-right-wrapper-card-slideshow">
-                                        <h1>Gratis</h1>
-                                    </div>
-                                    <div className="date-right-right-wrapper-card-slideshow">
-                                        
-                                        <h3>11 Desember 2023</h3>
-                                    </div>
-                                    <div className="button-right-right-wrapper-card-slideshow">
-                                        <h4>Daftar Webinar</h4>
+                                    <div className="wrapper-right-right-wrapper-card-slideshow">
+                                        <div className="price-right-right-wrapper-card-slideshow">
+                                            <h1>Gratis</h1>
+                                        </div>
+                                        <div className="date-right-right-wrapper-card-slideshow">
+                                            <DateRangeIcon className="date-icon"/>
+                                            <h3>11 Desember 2023</h3>
+                                        </div>
+                                        <div className="button-right-right-wrapper-card-slideshow">
+                                            <div className="wrapper-button-right-right-wrapper-card-slideshow">
+                                                <h4>Daftar Webinar</h4>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
