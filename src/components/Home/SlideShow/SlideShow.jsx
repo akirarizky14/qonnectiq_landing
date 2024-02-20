@@ -1,6 +1,6 @@
-import "../../../css/Home/Slideshow/SlideShow.css"
+import '../../../css/Home/SlideShow/SlideShow.css'
 import photo from '../../../assets/Home/SlideShow/photo-dump.png'
-import DateRangeIcon from '@mui/icons-material/DateRange';
+import TodayIcon from '@mui/icons-material/Today';
 function SlideShow(){
     return(
         <div className="container-slideshow">
@@ -14,7 +14,7 @@ function SlideShow(){
                     <div className="wrapper-card-slideshow">
                         <div className="left-wrapper-card-slideshow">
                             <div className="image-left-wrapper-card-slideshow">
-                                <img src={photo} alt="" />
+                                <img src={photo} alt="Photo Narasumber" />
                             </div>
                         </div>
                         <div className="middle-wrapper-card-slideshow">
@@ -41,7 +41,7 @@ function SlideShow(){
                                             <h1>Gratis</h1>
                                         </div>
                                         <div className="date-right-right-wrapper-card-slideshow">
-                                            <DateRangeIcon  className="date-icon"/>
+                                            <TodayIcon  className="date-icon"/>
                                             <h3>11 Desember 2023</h3>
                                         </div>
                                         <div className="button-right-right-wrapper-card-slideshow">

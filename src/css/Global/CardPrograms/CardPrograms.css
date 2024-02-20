@@ -1,0 +1,119 @@
+.container-cardprograms{
+    width: 380px;
+    height: 427px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-cardprograms{
+    width: 90%;
+    height: 90%;
+}
+.top-cardprograms{
+    width: 100%;
+    height: 55%;
+}
+.top-cardprograms img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.middle-cardprograms{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+}
+.middle-cardprograms h3{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.75rem;
+}
+.middle-cardprograms h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+.bottom-cardprograms{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.bottom-cardprograms h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: line-through;
+    text-decoration-color: #FF0000;
+}
+.bottom-cardprograms h5{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1100px) {
+    .container-cardprograms{
+        width: 331px;
+        height: 372px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-cardprograms{
+        width: 90%;
+        height: 90%;
+    }
+    .top-cardprograms{
+        width: 100%;
+        height: 55%;
+    }
+    .top-cardprograms img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .middle-cardprograms{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5%;
+    }
+    .middle-cardprograms h3{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 1.5rem;
+    }
+    .middle-cardprograms h4{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.25rem;
+    }
+    .bottom-cardprograms{
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 5%;
+    }
+    .bottom-cardprograms h2{
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: line-through;
+        text-decoration-color: #FF0000;
+    }
+    .bottom-cardprograms h5{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
