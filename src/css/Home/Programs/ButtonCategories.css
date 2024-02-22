@@ -60,6 +60,7 @@
         border: 1px solid black;
         border-radius: 5px;
         cursor: pointer;
+        height: 28px;
     }
     
     .container-button-categories:hover{
@@ -68,6 +69,7 @@
         background-color: #F7941D;
         border: 0px solid black;
         border-radius: 5px;
+        height: 28px;
     }
     .container-button-categories span{
         color: black;
