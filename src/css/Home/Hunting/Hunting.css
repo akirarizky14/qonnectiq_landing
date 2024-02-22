@@ -1,0 +1,194 @@
+.container-hunting{
+    width: 100%;
+    height: 620px;
+    background-color: white;
+    min-width: 400px;
+}
+.wrapper-hunting{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left-hunting{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.left-hunting img{
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+}
+.right-hunting{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.wrapper-right-hunting{
+    width: 100%;
+    height: 100%;
+}
+.title-right-hunting{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.title-right-hunting h1{
+    font-size: 55px;
+    line-height: 4.15rem;
+    font-weight: 700;
+}
+.button-right-hunting{
+    width: 50%;
+    height: 30%;
+}
+.button-right-hunting Button{
+    width: 135px;
+    height: 49px;
+    font-size: 25px;
+    color: white;
+    text-transform: none;
+    font-weight: 600;
+    background-color: #F7941D;
+}
+
+@media screen and (max-width:1080px){
+    .container-hunting{
+        width: 100%;
+        height: 580px;
+        background-color: white;
+    }
+    .wrapper-hunting{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-hunting{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .left-hunting img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .right-hunting{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .wrapper-right-hunting{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-right-hunting{
+        width: 80%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-right-hunting h1{
+        text-align: center;
+        font-size: 35px;
+        line-height: 2.25rem;
+        font-weight: 700;
+    }
+    .button-right-hunting{
+        width: 100%;
+        height: 40%;
+        text-align: center;
+    }
+    .button-right-hunting Button{
+        width: 105px;
+        height: 39px;
+        font-size: 18px;
+        color: white;
+        text-transform: none;
+        font-weight: 600;
+        background-color: #F7941D;
+    }
+}
+@media screen and (max-width:760px){
+    .container-hunting{
+        width: 100%;
+        height: 480px;
+        background-color: white;
+    }
+    .wrapper-hunting{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-hunting{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .left-hunting img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .right-hunting{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .wrapper-right-hunting{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-right-hunting{
+        width: 80%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-right-hunting h1{
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.25rem;
+        font-weight: 700;
+    }
+    .button-right-hunting{
+        width: 100%;
+        height: 40%;
+        text-align: center;
+    }
+    .button-right-hunting Button{
+        width: 81px;
+        height: 28px;
+        font-size: 12px;
+        color: white;
+        text-transform: none;
+        font-weight: 600;
+        background-color: #F7941D;
+    }
+}
