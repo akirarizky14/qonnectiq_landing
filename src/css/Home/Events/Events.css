@@ -14,15 +14,18 @@
 }
 .header-events{
     width: 100%;
-    height: 10%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.header-events h1{
+    font-size: 40px;
+}
 .content-events{
     width: 100%;
-    height: 90%;
+    height: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,10 +40,10 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1200px) {
     .container-events {
         width: 100%;
-        height: 560px;
+        height: 580px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -54,15 +57,18 @@
     
     .header-events {
         width: 100%;
-        height: 10%;
+        height: 20%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .header-events h1{
+        font-size: 30px;
+    }
     .content-events {
         width: 100%; /* Lebar diatur ke 100% agar konten dapat melebar sesuai dengan konten di dalamnya */
-        height: 100%; /* Tinggi diatur ke 100% untuk memastikan konten memiliki tinggi yang sesuai */
+        height: 80%; /* Tinggi diatur ke 100% untuk memastikan konten memiliki tinggi yang sesuai */
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -74,5 +80,55 @@
         display: flex;
         gap: 20px; /* Jarak antara setiap item diatur di sini */
     }
+    .content-events::-webkit-scrollbar{
+        display: none;
+    }
+}
+@media screen and (max-width:760px) {
+    .container-events {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F5F5F5;
+    }
     
+    .wrapper-events {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header-events {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-events h1{
+        font-size: 18px;
+    }
+    .content-events {
+        width: 85%; /* Lebar diatur ke 100% agar konten dapat melebar sesuai dengan konten di dalamnya */
+        height: 80%; /* Tinggi diatur ke 100% untuk memastikan konten memiliki tinggi yang sesuai */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-x: auto; /* Overflow-x diatur ke auto untuk mengaktifkan scroll horizontal jika konten melebihi lebar */
+        overflow-y: hidden; 
+        
+    }
+    .content-events::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .wrapper-content-events {
+        display: flex;
+        gap: 20px; 
+    }
 }

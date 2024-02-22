@@ -34,9 +34,14 @@ function Solution() {
     }, [activeButton]);
 
     const handleClick = (category) => {
-        setActiveButton(category);
-        setShowDescription(false);
+        if (activeButton === category) {
+            setShowDescription(true); // Jika tombol yang diklik adalah yang sedang aktif, tampilkan deskripsi
+        } else {
+            setActiveButton(category);
+            setShowDescription(false); // Jika tombol yang diklik bukan yang sedang aktif, sembunyikan deskripsi
+        }
     };
+    
     return (
         <div className="container-solution">
             <div className="wrapper-solution">
