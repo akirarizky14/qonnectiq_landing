@@ -12,7 +12,7 @@ function CardPrograms(props) {
           <h4>{props.desc}</h4>
         </div>
         <div className="bottom-cardprograms">
-          <h2>{props.price}</h2>
+          <h2>RP{props.price}</h2>
           <h5>{props.free}</h5>
         </div>
       </div>
