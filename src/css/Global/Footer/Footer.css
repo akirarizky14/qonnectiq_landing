@@ -1,0 +1,343 @@
+.container-footer{
+    width: 100%;
+    height: 390px;
+    min-width: 400px;
+}
+.top-footer{
+    width: 100%;
+    height: 80%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-top-footer{
+    width: 80%;
+    height: 85%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+.wrap-top-footer{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.title-footer{
+    width: 100%;
+    height: 10%;
+    background-color: #940000;
+}
+.title-footer h3{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+.image-top-footer{
+    background-color: aqua;
+    width: 80%;
+    height: 50%;
+}
+.image-top-footer img{
+    width: 100%;
+    height: 100%;
+}
+.desc-top-footer{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+.desc-top-footer .Link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.bottom-footer{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.wrapper-bottom-footer{
+    width: 80%;
+    height: 100%;
+    background-color: #940000;
+    display: flex;
+}
+.image-bottom-footer{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.image-bottom-footer img{
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+}
+.cp-bottom-footer{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cp-bottom-footer span{
+    font-size: 18px;
+    color: #414141;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.mobile-logo-qonnectiq{
+    display: none;
+}
+.wrap-mobile-desc{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1080px){
+    .container-footer{
+        width: 100%;
+        height: 390px;
+    }
+    .top-footer{
+        width: 100%;
+        height: 80%;
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-top-footer{
+        width: 90%;
+        height: 85%;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-logo-qonnectiq{
+        display: flex;
+        width: 100%;
+        height: 25%;
+        justify-content: center;
+    }
+    .mobile-logo-qonnectiq img{
+        width: fit-content;
+        height: fit-content;
+        object-fit: cover;
+    }
+    .wrap-mobile-desc{
+        display: flex;
+        width: 100%;
+        height: 75%;
+    }
+    .wrap-top-footer{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+    }
+    .title-footer{
+        width: 100%;
+        height: 10%;
+        background-color: #940000;
+    }
+    .title-footer h3{
+        font-size: 14px;
+        font-weight: 700;
+        color: black;
+    }
+    .image-top-footer{
+        background-color: aqua;
+        width: 80%;
+        height: 50%;
+    }
+    .image-top-footer img{
+        width: 100%;
+        height: 100%;
+    }
+    .desc-top-footer{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .desc-top-footer .Link{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .bottom-footer{
+        width: 100%;
+        height: 20%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper-bottom-footer{
+        width: 90%;
+        height: 100%;
+        background-color: #940000;
+        display: flex;
+    }
+    .image-bottom-footer{
+        width: 40%;
+        height: 100%;
+        display: none;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .image-bottom-footer img{
+        width: fit-content;
+        height: fit-content;
+        object-fit: cover;
+    }
+    .cp-bottom-footer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cp-bottom-footer span{
+        font-size: 18px;
+        color: #414141;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    
+}
+
+@media screen and (max-width:760px){
+    .container-footer{
+        width: 100%;
+        height: 310px;
+    }
+    .top-footer{
+        width: 100%;
+        height: 90%;
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-top-footer{
+        width: 90%;
+        height: 90%;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-logo-qonnectiq{
+        display: flex;
+        width: 100%;
+        height: 10%;
+        justify-content: center;
+    }
+    .mobile-logo-qonnectiq img{
+        width: 81px;
+        height: 20px;
+        object-fit: cover;
+    }
+    .wrap-mobile-desc{
+        display: flex;
+        width: 100%;
+        height: 90%;
+        flex-wrap: wrap;
+    }
+    .wrap-top-footer{
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .title-footer{
+        width: 100%;
+        height: 20%;
+        background-color: #940000;
+    }
+    .title-footer h3{
+        font-size: 12px;
+        font-weight: 700;
+        color: black;
+    }
+    .image-top-footer{
+        background-color: aqua;
+        width: 80%;
+        height: 70%;
+    }
+    .image-top-footer img{
+        width: 100%;
+        height: 100%;
+    }
+    .desc-top-footer{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 1%;
+    }
+    .desc-top-footer .Link{
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .bottom-footer{
+        width: 100%;
+        height: 10%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper-bottom-footer{
+        width: 90%;
+        height: 100%;
+        background-color: #940000;
+        display: flex;
+    }
+    .image-bottom-footer{
+        width: 40%;
+        height: 100%;
+        display: none;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .image-bottom-footer img{
+        width: fit-content;
+        height: fit-content;
+        object-fit: cover;
+    }
+    .cp-bottom-footer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cp-bottom-footer span{
+        font-size: 12px;
+        color: #414141;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+    
+}
