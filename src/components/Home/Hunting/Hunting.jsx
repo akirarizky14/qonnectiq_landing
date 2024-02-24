@@ -1,5 +1,5 @@
-import '../../css/Home/Hunting/Hunting.css'
-import photo from '../../assets/Home/Hunting/Hunting.png'
+import '../../../css/Home/Hunting/Hunting.css'
+import photo from '../../../assets/Home/Hunting/Hunting.png'
 import { Button } from '@mui/material'
 function Hunting(){
     return(
