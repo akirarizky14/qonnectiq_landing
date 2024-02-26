@@ -3,12 +3,12 @@ import React, { useState, useEffect } from 'react';
 import '../../../../assets/Global/Template/Dashboard.png'
 import Photo  from '../../../../assets/Global/Template/Dashboard.png';
 import Photo1 from '../../../../assets/Home/Hunting/Hunting.png'
-import ReactCardSlider from 'react-card-slider-component';
+import ImageSlider from './ImageSlider';
 function Qonnectiq(props) {
     const slides = [
-        {image:{Photo}},
-        {image:{Photo1}},
-        {image:"https://picsum.photos/200/300"},
+        {url:Photo},
+        {url:Photo1},
+        {url:"https://picsum.photos/200/300"},
     ]
     return (
         <div className="container-qonnectiq">
@@ -22,10 +22,9 @@ function Qonnectiq(props) {
                     </div>
                 </div>
                 <div className="right-qonnectiq">
-                    {/* <div className="image-right-qonnectiq">
-                        <img src="" alt="" />
-                    </div> */}
-                    <ReactCardSlider slides={slides}/>
+                    <div className="image-right-qonnectiq">
+                        <ImageSlider slides={slides} />
+                    </div>
                 </div>
             </div>
         </div>
