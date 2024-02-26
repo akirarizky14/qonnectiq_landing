@@ -1,4 +1,4 @@
-import Qonnectiq from "../Global/Templates/Qonnectiq/Qonnectiq"
+import Qonnectiq from "../../components/Global/Templates/Qonnectiq/Qonnectiq"
 import photo from '../../assets/Global/Template/Dashboard.png'
 function Company(){
     return(

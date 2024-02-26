@@ -3,9 +3,9 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Home from './views/Home/Home'
 import Navbar from './components/Global/Navbar/Navbar'
 import Footer from './components/Global/Footer/Footer'
-import Company from './components/Company/Company'
-import Campus from './components/Campus/Campus'
-import School from './components/School/School'
+import Company from './views/Company/Company'
+import Campus from './views/Campus/Campus'
+import School from './views/School/School'
 function App() {
   return (
     <>
