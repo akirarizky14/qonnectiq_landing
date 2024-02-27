@@ -1,0 +1,240 @@
+.container-phase{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+.wrapper-phase{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-phase{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.button-bottom-phase{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2%;
+    width: 30%;
+    height: 100%;
+}
+.button-bottom-phase Button{
+    width: 243px;
+    height: 42px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-bottom-phase Button:hover {
+    border: 0px solid black;
+    background-color: #F7941D;
+    color: white;
+}
+.button-bottom-phase Button.active {
+    border: 0px solid black;
+    background-color: #F7941D;
+    color: white;
+}
+.line-bottom-phase{
+    width: 5%;
+    height: 100%;
+}
+.line-bottom-phase hr{
+    background-color: black;
+    width: 1px;
+    height: 90%;
+}
+.description-bottom-phase{
+    width: 65%;
+    height: 100%;
+    display: flex;
+}
+.wrapper-description-bottom-phase{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+.wrapper-description-bottom-phase h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+ul.dot li h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+@media screen and (max-width:1080px) {
+.container-phase{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-phase{
+    width: 85%;
+    height: 90%;
+}
+.bottom-phase{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+.button-bottom-phase{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1%;
+    width: 100%;
+    height: 95%;
+}
+.button-bottom-phase Button{
+    width: 243px;
+    height: 42px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.button-bottom-phase Button:hover {
+    border: 0px solid black;
+    background-color: #F7941D;
+    color: white;
+}
+.button-bottom-phase Button.active {
+    border: 0px solid black;
+    background-color: #F7941D;
+    color: white;
+}
+.line-bottom-phase{
+    width: 5%;
+    height: 100%;
+}
+.line-bottom-phase hr{
+    background-color: black;
+    width: 1px;
+    height: 100%;
+}
+.description-bottom-phase{
+    width: 65%;
+    height: 100%;
+    display: flex;
+}
+.wrapper-description-bottom-phase{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+.wrapper-description-bottom-phase h2{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 1%;
+    padding-top: 3%;
+    font-weight: 600;
+}
+
+ul.dot li h3{
+    font-size: 14px;
+    font-weight: 500;
+}
+}
+@media screen and (max-width:760px) {
+    .container-phase{
+        width: 100%;
+        height: 600px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-phase{
+        width: 85%;
+        height: 90%;
+    }
+    .bottom-phase{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .button-bottom-phase{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1%;
+        width: 100%;
+        height: 100%;
+    }
+    .button-bottom-phase Button{
+        width: 150px;
+        height: 27px;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .button-bottom-phase Button:hover {
+        border: 0px solid black;
+        background-color: #F7941D;
+        color: white;
+    }
+    .button-bottom-phase Button.active {
+        border: 0px solid black;
+        background-color: #F7941D;
+        color: white;
+    }
+    .line-bottom-phase{
+        width: 5%;
+        height: 100%;
+    }
+    .line-bottom-phase hr{
+        background-color: black;
+        width: 1px;
+        height: 100%;
+    }
+    .description-bottom-phase{
+        width: 65%;
+        height: 100%;
+        display: flex;
+    }
+    .wrapper-description-bottom-phase{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 1%;
+    }
+    .wrapper-description-bottom-phase h2{
+        font-size: 16px;
+        color: black;
+        padding-bottom: 2%;
+    }
+    ul.dot li h3{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
