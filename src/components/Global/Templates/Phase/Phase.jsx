@@ -1,6 +1,5 @@
 import '../../../../css/Global/Template/Phase/Phase.css'
 import { useState ,useEffect} from 'react';
-import fetchdata from './fetchdata';
 import React from 'react';
 const Buttona = ({ onClick, text, active }) => {
     return (
@@ -10,7 +9,7 @@ const Buttona = ({ onClick, text, active }) => {
     );
 };
 
-function Phase() {
+function Phase(props) {
     const [data, setData] = useState({});
     const [activeButton, setActiveButton] = useState('Pre - Training Phase'); // Menambahkan state untuk menandai tombol mana yang aktif
     const [windowWidth,setwindowWidth] = useState(window.innerWidth);
@@ -21,7 +20,7 @@ function Phase() {
     }
 
     useEffect(() => {
-        const newData = fetchdata(activeButton);
+        const newData = props.fetchdata(activeButton);
         setData(newData);
 
         activeButton === 'Pre - Training Phase'
