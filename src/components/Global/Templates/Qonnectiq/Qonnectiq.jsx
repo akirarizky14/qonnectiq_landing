@@ -1,15 +1,9 @@
 import '../../../../css/Global/Template/Qonnectiq/Qonnectiq.css'
 import React, { useState, useEffect } from 'react';
 import '../../../../assets/Global/Template/Dashboard.png'
-import Photo  from '../../../../assets/Global/Template/Dashboard.png';
-import Photo1 from '../../../../assets/Home/Hunting/Hunting.png'
+
 import ImageSlider from './ImageSlider';
 function Qonnectiq(props) {
-    const slides = [
-        {url:Photo},
-        {url:Photo1},
-        {url:"https://picsum.photos/200/300"},
-    ]
     return (
         <div className="container-qonnectiq">
             <div className="wrapper-qonnectiq">
@@ -23,7 +17,7 @@ function Qonnectiq(props) {
                 </div>
                 <div className="right-qonnectiq">
                     <div className="image-right-qonnectiq">
-                        <ImageSlider slides={slides} />
+                        <ImageSlider slides={props.slides} />
                     </div>
                 </div>
             </div>
