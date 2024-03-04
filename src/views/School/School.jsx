@@ -3,6 +3,7 @@ import Photo  from '../../assets/Global/Template/Dashboard.png';
 import Photo1 from '../../assets/Home/Hunting/Hunting.png'
 import Phase from "../../components/Global/Templates/Phase/Phase";
 import fetchData from "./fetchdata";
+import Pocket from "../../components/Global/Templates/Pocket/Pocket";
 function School(){
     const slides = [
         {url:Photo},
@@ -19,6 +20,7 @@ function School(){
             <Phase 
                 fetchdata = {fetchData}
             />
+            <Pocket/>
         </>
     )
 }

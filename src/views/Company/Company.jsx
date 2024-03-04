@@ -3,6 +3,8 @@ import Photo  from '../../assets/Global/Template/Dashboard.png';
 import Photo1 from '../../assets/Home/Hunting/Hunting.png'
 import Phase from "../../components/Global/Templates/Phase/Phase";
 import fetchData from "./fetchdata";
+import Journey from "../../components/Global/Templates/Journey/Journey";
+import Pocket from "../../components/Global/Templates/Pocket/Pocket";
 function Company(){
     const slides = [
         {url:Photo},
@@ -17,6 +19,12 @@ function Company(){
                 slides={slides}
             />
             <Phase fetchdata={fetchData}/>
+            <Journey 
+                title="Your Complete Training Journey, All in One App!"
+                desc="All-In-One Training Journey Unveiled on Your Dashboard!"
+                slides={slides}
+            />
+            <Pocket/>
         </>
     )
 }

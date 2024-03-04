@@ -1,0 +1,182 @@
+.container-pocket{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    background-color: white;
+}
+.wrapper-pocket{
+    width: 80%;
+    height: 90%;
+    display: flex;
+}
+.left-pocket{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-pocket img{
+    width: 400px;
+    height: 371px;
+    object-fit: cover;
+}
+.right-pocket{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-right-pocket{
+    width: 95%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+.wrapper-right-pocket h1{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    line-height: 2.0rem;
+}
+.app-right-pocket{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.app-right-pocket img{
+    width: 180px;
+    height: 50px;
+    object-fit: cover;
+}
+@media screen and (max-width:1080px) {
+    .container-pocket{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-pocket{
+        width: 90%;
+        height: 90%;
+        display: flex;
+    }
+    .left-pocket{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-pocket img{
+        width: 300px;
+        height: 271px;
+        object-fit: cover;
+    }
+    .right-pocket{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-right-pocket{
+        width: 95%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15%;
+    }
+    .wrapper-right-pocket h1{
+        font-size: 24px;
+        color: black;
+        font-weight: 500;
+        line-height: 2.0rem;
+    }
+    .app-right-pocket{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .app-right-pocket img{
+        width: 180px;
+        height: 50px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .container-pocket{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-pocket{
+        width: 90%;
+        height: 90%;
+        display: flex;
+    }
+    .left-pocket{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-pocket img{
+        width: 200px;
+        height: 171px;
+        object-fit: cover;
+    }
+    .right-pocket{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-right-pocket{
+        width: 95%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+    }
+    .wrapper-right-pocket h1{
+        font-size: 14px;
+        color: black;
+        font-weight: 500;
+        line-height: 1.0rem;
+        text-align: center;
+    }
+    .app-right-pocket{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .app-right-pocket img{
+        width: 120px;
+        height: 30px;
+        object-fit: cover;
+    }
+}

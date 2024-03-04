@@ -1,0 +1,236 @@
+.container-journey{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    min-width: 400px;
+}
+.wrapper-journey{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.top-journey{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-journey h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.bottom-journey{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left-journey{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-left-journey{
+    width: 80%;
+    height: 70%;
+}
+.image-left-country{
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+}
+.right-journey{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2%;
+}
+.desc-right-journey{
+    width: 100%;
+    height: 20%;
+}
+.desc-right-journey h3{
+    font-size: 25px;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+.button-right-journey{
+    width: 100%;
+    height: 20%;
+}
+.button-right-journey .Button{
+    background-color: #F7941D;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+@media screen and (max-width:1090px) {
+    .container-journey{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F5F5F5;
+    }
+    .wrapper-journey{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .top-journey{
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-journey h1{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .bottom-journey{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .left-journey{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-left-journey{
+        width: 90%;
+        height: 90%;
+    }
+    .image-left-country{
+        width: fit-content;
+        height: fit-content;
+        object-fit: cover;
+    }
+    .right-journey{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2%;
+    }
+    .desc-right-journey{
+        width: 100%;
+        height: 20%;
+    }
+    .desc-right-journey h3{
+        font-size: 16px;
+        line-height: 1.75rem;
+        font-weight: 600;
+    }
+    .button-right-journey{
+        width: 100%;
+        height: 20%;
+    }
+    .button-right-journey .Button{
+        background-color: #F7941D;
+        text-transform: none;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width:760px) {
+    .container-journey{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F5F5F5;
+    }
+    .wrapper-journey{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-journey{
+        height: 10%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-journey h1{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .bottom-journey{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-journey{
+        width: 100%;
+        height: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-left-journey{
+        width: 90%;
+        height: 80%;
+    }
+    .image-left-country{
+        width: fit-content;
+        height: fit-content;
+        object-fit: cover;
+    }
+    .right-journey{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20%;
+    }
+    .desc-right-journey{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        width: 90%;
+    }
+    .desc-right-journey h3{
+        font-size: 14px;
+        line-height: 1.25rem;
+        font-weight: 600;
+    }
+    .button-right-journey{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+    }
+    .button-right-journey .Button{
+        background-color: #F7941D;
+        text-transform: none;
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
