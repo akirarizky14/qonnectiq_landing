@@ -1,0 +1,22 @@
+{
+    "data1":{
+        "title": "Centralized Learning Platform",
+        "desc" : "Provides a centralized platform for students and teachers to access learning materials, resources, and communication tools, streamlining the educational experience."
+    },
+    "data2":{
+        "title": "Efficient Administration",
+        "desc" : "Facilitates administrative tasks such as attendance tracking, grading, and course management, reducing manual workload for school staff."
+    },
+    "data3":{
+        "title": "Parental Involvement",
+        "desc": "Enhances parental involvement by offering insights into student progress, attendance, and assignments, fostering a collaborative relationship between parents and teachers."
+    },
+    "data4":{
+        "title":"Customized Learning Paths",
+        "desc": "Supports the creation of customized learning paths and content, catering to individual student needs and learning styles."
+    },
+    "data5":{
+        "title":"Collaborative Learning",
+        "desc": "Encourages collaborative learning through group projects, online discussions, and interactive assignments, promoting teamwork and communication skills."
+    }
+}

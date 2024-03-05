@@ -1,0 +1,22 @@
+{
+    "data1":{
+        "title": "Flexible Learning Access",
+        "desc" : "Enables students to access learning materials at their own convenience, fostering flexible learning schedules."
+    },
+    "data2":{
+        "title": "Real-time Progress Tracking",
+        "desc" : "Allows for real-time monitoring of individual student progress, facilitating timely intervention and support."
+    },
+    "data3":{
+        "title": "Automated Evaluation",
+        "desc": "Streamlines the assessment process with automated grading of exams and assignments, providing immediate feedback."
+    },
+    "data4":{
+        "title":"Discussion Forums",
+        "desc": "Provides online platforms for student-teacher and peer-to-peer discussions, enhancing collaboration and idea exchange."
+    },
+    "data5":{
+        "title":"Content Enrichment",
+        "desc": "Supports the incorporation of diverse multimedia content, such as videos, audio, and images, enhancing engagement and learning effectiveness."
+    }
+}

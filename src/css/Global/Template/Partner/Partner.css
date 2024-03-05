@@ -1,0 +1,399 @@
+.container-partner{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+.wrapper-partner{
+    width: 70%;
+    height: 90%;
+}
+.top-partner{
+    width: 100%;
+    height: 20%;
+}
+.top-partner h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.bottom-partner{
+    width: 100%;
+    height: 80%;
+}
+.wrapper-bottom-partner{
+    width: 100%;
+    height: 100%;
+}
+.top-bottom-partner{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.infovesta{
+    width: 200px;
+    height: 46px;
+    object-fit: cover;
+}
+.danamon{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+.eclat{
+    width: 150px;
+    height: 50px;
+    object-fit: cover;
+}
+.kukche{
+    width: 87px;
+    height: 50px;
+    object-fit: cover;
+}
+.toefl{
+    width: 73px;
+    height: 70px;
+    object-fit: cover;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.bottom-bottom-partner{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aaui{
+    width: 92px;
+    height: 50px;
+    object-fit: cover;
+}
+.crown{
+    width: 92px;
+    height: 60px;
+    object-fit: cover;
+}
+.batas{
+    width: 182px;
+    height: 50px;
+    object-fit: cover;
+}
+.duniaqua{
+    width: 200px;
+    height: 40px;
+    object-fit: cover;
+}
+.kms{
+    width: 134px;
+    height: 60px;
+    object-fit: cover;
+}
+@media screen and (max-width:1080px) {
+    .container-partner{
+        width: 100%;
+        height: 250px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-partner{
+        width: 90%;
+        height: 90%;
+    }
+    .top-partner{
+        width: 100%;
+        height: 20%;
+    }
+    .top-partner h1{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .bottom-partner{
+        width: 100%;
+        height: 80%;
+    }
+    .wrapper-bottom-partner{
+        width: 100%;
+        height: 100%;
+    }
+    .top-bottom-partner{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .infovesta{
+        width: 180px;
+        height: 40px;
+        object-fit: cover;
+    }
+    .danamon{
+        width: 180px;
+        height: 45px;
+        object-fit: cover;
+    }
+    .eclat{
+        width: 130px;
+        height: 45px;
+        object-fit: cover;
+    }
+    .kukche{
+        width: 77px;
+        height: 45px;
+        object-fit: cover;
+    }
+    .toefl{
+        width: 63px;
+        height: 60px;
+        object-fit: cover;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+    .bottom-bottom-partner{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .aaui{
+        width: 82px;
+        height: 45px;
+        object-fit: cover;
+    }
+    .crown{
+        width: 82px;
+        height: 55px;
+        object-fit: cover;
+    }
+    .batas{
+        width: 172px;
+        height: 45px;
+        object-fit: cover;
+    }
+    .duniaqua{
+        width: 180px;
+        height: 35px;
+        object-fit: cover;
+    }
+    .kms{
+        width: 124px;
+        height: 55px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:760px) {
+    .container-partner{
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-partner{
+        width: 90%;
+        height: 90%;
+    }
+    .top-partner{
+        width: 100%;
+        height: 10%;
+    }
+    .top-partner h1{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .bottom-partner{
+        width: 100%;
+        height: 90%;
+    }
+    .wrapper-bottom-partner{
+        width: 100%;
+        height: 100%;
+    }
+    .top-bottom-partner{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .infovesta{
+        width: 100px;
+        height: 20px;
+        object-fit: cover;
+    }
+    .danamon{
+        width: 100px;
+        height: 25px;
+        object-fit: cover;
+    }
+    .eclat{
+        width: 100px;
+        height: 35px;
+        object-fit: cover;
+    }
+    .kukche{
+        width: 57px;
+        height: 40px;
+        object-fit: cover;
+    }
+    .toefl{
+        width: 43px;
+        height: 40px;
+        object-fit: cover;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+    .bottom-bottom-partner{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .aaui{
+        width: 42px;
+        height: 25px;
+        object-fit: cover;
+    }
+    .crown{
+        width: 42px;
+        height: 30px;
+        object-fit: cover;
+    }
+    .batas{
+        width: 102px;
+        height: 25px;
+        object-fit: cover;
+    }
+    .duniaqua{
+        width: 100px;
+        height: 20px;
+        object-fit: cover;
+    }
+    .kms{
+        width: 104px;
+        height: 35px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:500px) {
+    .container-partner{
+        width: 100%;
+        height: 170px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-partner{
+        width: 90%;
+        height: 90%;
+    }
+    .top-partner{
+        width: 100%;
+        height: 10%;
+    }
+    .top-partner h1{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .bottom-partner{
+        width: 100%;
+        height: 90%;
+    }
+    .wrapper-bottom-partner{
+        width: 100%;
+        height: 100%;
+    }
+    .top-bottom-partner{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .infovesta{
+        width: 80px;
+        height: 15px;
+        object-fit: cover;
+    }
+    .danamon{
+        width: 80px;
+        height: 20px;
+        object-fit: cover;
+    }
+    .eclat{
+        width: 80px;
+        height: 30px;
+        object-fit: cover;
+    }
+    .kukche{
+        width: 40px;
+        height: 30px;
+        object-fit: cover;
+    }
+    .toefl{
+        width: 33px;
+        height: 30px;
+        object-fit: cover;
+    }
+    .logo{
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    }
+    .bottom-bottom-partner{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .aaui{
+        width: 32px;
+        height: 20px;
+        object-fit: cover;
+    }
+    .crown{
+        width: 32px;
+        height: 25px;
+        object-fit: cover;
+    }
+    .batas{
+        width: 82px;
+        height: 20px;
+        object-fit: cover;
+    }
+    .duniaqua{
+        width: 80px;
+        height: 15px;
+        object-fit: cover;
+    }
+    .kms{
+        width: 84px;
+        height: 30px;
+        object-fit: cover;
+    }
+}
