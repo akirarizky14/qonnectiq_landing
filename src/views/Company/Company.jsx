@@ -5,12 +5,18 @@ import Phase from "../../components/Global/Templates/Phase/Phase";
 import fetchData from "./fetchdata";
 import Journey from "../../components/Global/Templates/Journey/Journey";
 import Pocket from "../../components/Global/Templates/Pocket/Pocket";
+import Partner from "../../components/Global/Templates/Partner/Partner";
+import Skill from "../../components/Global/Templates/Skill/Skill";
+
+import data from './dataskill.json';
+
 function Company(){
     const slides = [
         {url:Photo},
         {url:Photo1},
         {url:"https://picsum.photos/200/300"},
     ]
+    const skillData = Object.values(data);
     return(
         <>
             <Qonnectiq
@@ -23,6 +29,11 @@ function Company(){
                 title="Your Complete Training Journey, All in One App!"
                 desc="All-In-One Training Journey Unveiled on Your Dashboard!"
                 slides={slides}
+            />
+            <Partner/>
+            <Skill 
+                title="Elevating Employee Skills through Our Advanced LMS Platform " 
+                data={skillData}
             />
             <Pocket/>
         </>

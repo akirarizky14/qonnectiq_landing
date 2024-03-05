@@ -1,0 +1,243 @@
+.container-skill{
+    width: 100%;
+    height: 740px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+.wrapper-skill{
+    width: 80%;
+    height: 85%;
+}
+.title-skill{
+    width: 100%;
+    height: 15%;
+}
+.title-skill h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.description-skill{
+    width: 100%;
+    height: 85%;
+}
+.wrapper-desc-skill{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    gap: 2%;
+    padding-bottom: 3%;
+}
+.list-desc-skill{
+    width: 2%;
+    height: 100%;
+    display: flex;
+    padding-top: 1%;
+}
+.list-desc-skill img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.desc-skill{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.desc-skill h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.desc-skill p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width:1080px){
+    .container-skill{
+        width: 100%;
+        height: 640px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-skill{
+        width: 80%;
+        height: 85%;
+    }
+    .title-skill{
+        width: 100%;
+        height: 15%;
+    }
+    .title-skill h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .description-skill{
+        width: 100%;
+        height: 85%;
+    }
+    .wrapper-desc-skill{
+        display: flex;
+        width: 100%;
+        height: 15%;
+        gap: 2%;
+        padding-bottom: 3%;
+    }
+    .list-desc-skill{
+        width: 2%;
+        height: 100%;
+        display: flex;
+        padding-top: 1%;
+    }
+    .list-desc-skill img{
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+    }
+    .desc-skill{
+        width: 98%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .desc-skill h3{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .desc-skill p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width:820px){
+    .container-skill{
+        width: 100%;
+        height: 540px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-skill{
+        width: 90%;
+        height: 95%;
+    }
+    .title-skill{
+        width: 100%;
+        height: 15%;
+    }
+    .title-skill h1{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .description-skill{
+        width: 100%;
+        height: 85%;
+    }
+    .wrapper-desc-skill{
+        display: flex;
+        width: 100%;
+        height: 15%;
+        gap: 2%;
+        padding-bottom: 2%;
+    }
+    .list-desc-skill{
+        width: 4%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 1%;
+    }
+    .list-desc-skill img{
+        width: 15px;
+        height: 15px;
+        object-fit: cover;
+    }
+    .desc-skill{
+        width: 96%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .desc-skill h3{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .desc-skill p{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.0rem;
+    }
+}
+@media screen and (max-width:500px){
+    .container-skill{
+        width: 100%;
+        height: 540px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-skill{
+        width: 90%;
+        height: 95%;
+    }
+    .title-skill{
+        width: 100%;
+        height: 15%;
+    }
+    .title-skill h1{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .description-skill{
+        width: 100%;
+        height: 85%;
+    }
+    .wrapper-desc-skill{
+        display: flex;
+        width: 100%;
+        height: 15%;
+        gap: 2%;
+        padding-bottom: 5%;
+    }
+    .list-desc-skill{
+        width: 4%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 1%;
+    }
+    .list-desc-skill img{
+        width: 15px;
+        height: 15px;
+        object-fit: cover;
+    }
+    .desc-skill{
+        width: 96%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .desc-skill h3{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .desc-skill p{
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 1.0rem;
+    }
+}

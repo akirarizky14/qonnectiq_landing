@@ -4,12 +4,16 @@ import Photo1 from '../../assets/Home/Hunting/Hunting.png'
 import Phase from "../../components/Global/Templates/Phase/Phase";
 import fetchData from "./fetchdata";
 import Pocket from "../../components/Global/Templates/Pocket/Pocket";
+import Skill from "../../components/Global/Templates/Skill/Skill";
+import data from './dataskill.json';
+
 function School(){
     const slides = [
         {url:Photo},
         {url:Photo1},
         {url:"https://picsum.photos/200/300"},
     ]
+    const skillData = Object.values(data);
     return(
         <>
             <Qonnectiq
@@ -19,6 +23,10 @@ function School(){
             />
             <Phase 
                 fetchdata = {fetchData}
+            />
+            <Skill
+                title="Empower Seamless Learning for a Brighter Future with Our Innovative LMS." 
+                data={skillData}
             />
             <Pocket/>
         </>
