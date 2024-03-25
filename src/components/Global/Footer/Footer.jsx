@@ -1,6 +1,7 @@
 import '../../../css/Global/Footer/Footer.css';
 import { Link } from 'react-router-dom';
 import photo from '../../../assets/Global/Navbar/Logo_Qonnectiq_Desktop.png';
+import photo1 from '../../../assets/Global/Footer/Maps.png';
 function Footer(){
     return(
         <div className="container-footer">
@@ -15,7 +16,7 @@ function Footer(){
                                 <h3>Location</h3>
                             </div>
                             <div className="image-top-footer">
-                                <img src="" alt="" />
+                                <img src={photo1} alt="" />
                             </div>
                         </div>
                         <div className="partners-top-footer wrap-top-footer">

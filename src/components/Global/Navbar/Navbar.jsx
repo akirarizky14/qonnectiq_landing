@@ -41,10 +41,10 @@ function Navbar(){
                         <Link to="/company" className='Link'><h3>Q for Company</h3></Link>
                         <Link to="/campus" className='Link'><h3>Q for Campus</h3></Link>
                         <Link to="/school" className='Link'><h3>Q for School</h3></Link>
-                        <Link to="/programs" className='Link'><h3>Our Programs</h3></Link>
+                        <Link to="https://app.qonnectiq.com/" className='Link'><h3>Our Programs</h3></Link>
                     </section>
                     <section className="right-right-navbar">
-                        <Button variant="contained">Log In</Button>
+                        <Link to="https://app.qonnectiq.com/"><Button variant="contained">Log In</Button></Link>
                     </section>
                 </section>
             </div>
