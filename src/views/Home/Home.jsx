@@ -10,9 +10,9 @@ function Home(){
         <>
             <Carousel/>
             <SlideShow/>
-            <Programs/>
+            {/* <Programs/> */}
             <Solution/>
-            <Events/>
+            {/* <Events/> */}
             <Hunting/>
         </>
     )
