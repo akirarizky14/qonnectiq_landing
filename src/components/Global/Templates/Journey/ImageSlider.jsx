@@ -24,7 +24,6 @@ const rightArrowStyles = {
   borderRadius: "100px",
   display:'flex',
   justifyContent:'center',
-  textAlign:'center'
 };
 
 const leftArrowStyles = {
@@ -43,7 +42,6 @@ const leftArrowStyles = {
   borderRadius: "100px",
   display:'flex',
   justifyContent:'center',
-  textAlign:'center'
 };
 
 const sliderStyles = {
